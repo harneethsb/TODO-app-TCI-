@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#row-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+#add-btn{
+  left: 180px;
+  position: absolute;
+  display: flex;
+    align-items: center;
+}
+
+#row-left{
+  display: flex;
+  align-items: center;
+}
+#row-parent{
+margin-bottom: 70px;
+}
