@@ -45,11 +45,11 @@ const validateData = ()=>{
       }
       getStatus()
 }
+
 const DeleteBtn = (index)=>{
-let dupState = state.data
-dupState.splice(index,1)
-console.log(dupState)
-dispatch(deleteRow(dupState))
+    let dupState = state.data
+    dupState.splice(index,1)
+    dispatch(deleteRow(dupState))
 }
     return (
         <div>

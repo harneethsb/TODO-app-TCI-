@@ -5,7 +5,6 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { Avatar } from "@mui/material";
 import { addRowValues } from "../action";
 const Row = ({rowData, dispatch, index, DeleteBtn, state})=>{
-    console.log(state.lenght)
     return (
         <div id='row-container'>
         <div id= 'row-left'>
